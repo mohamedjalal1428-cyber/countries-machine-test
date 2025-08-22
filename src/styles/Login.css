@@ -1,0 +1,34 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: red;
+}
+
+.login-left {
+  flex: 1;
+  max-width: 400px;
+}
+.login-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.login-right img {
+  max-width: 300px;
+}
+.divider {
+  text-align: center;
+  margin: 20px 0;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.socials span {
+  border: 1px solid #333;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
